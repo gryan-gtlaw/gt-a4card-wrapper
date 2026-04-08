@@ -1,0 +1,27 @@
+<div class="gt-a4card-wrapper">
+  <div class="gt-a4card" aria-label="[[title_text]]">
+    <div class="gt-a4card__media"><img src="https://cdn.bfldr.com/FM3YDCO2/at/bsh6757fvkmrb7rkwxhknrvf/Pro_Bono_Induction_Brochure_July_2025.pdf?format=png&amp;width=900&amp;height=1272" loading="lazy" decoding="async">
+    </div>
+    <div class="gt-a4card__content">
+      <p class="gt-a4card__meta">
+        [[meta_text]]
+      </p>
+      <h2 class="gt-a4card__title">
+        [[title_text]]
+      </h2>
+      <div class="gt-a4card__body">
+        [[body_html]]
+      </div>
+      <div class="gt-a4card__actions"><a href="[[cta_url]]" class="gt-a4card__button">link goes here<span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+<p>
+  <style>
+    /* 30px padding around the card */ .gt-a4card-wrapper{ padding: 30px; } .gt-a4card{ box-sizing: border-box; background: #fff; border: 1px solid #006cf9; /* REQUIRED: 900px max width */ width: 100%; max-width: 900px; margin-inline: auto; display: grid; grid-template-columns: 1fr; } /* Two-column layout
+    once space allows */ @media (min-width: 700px){ .gt-a4card{ grid-template-columns: 1fr 1fr; } } /* A4 portrait ratio locked */ .gt-a4card__media{ width: 100%; aspect-ratio: 1 / 1.414; overflow: hidden; background: #f2f2f2; } .gt-a4card__media img{ width: 100%; height: 100%; object-fit: cover; display:
+    block; } .gt-a4card__content{ padding: 2rem; display: flex; flex-direction: column; gap: 1.5rem; } .gt-a4card__meta{ margin: 0; } .gt-a4card__title{ margin: 0; line-height: 1.15; } .gt-a4card__body &amp;gt; :first-child{ margin-top: 0; } .gt-a4card__body &amp;gt; :last-child{ margin-bottom: 0; } /* CTA
+    always visible */ .gt-a4card__button{ display: inline-flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: #006cf9; color: #fff; text-decoration: none; font-weight: 600; line-height: 1; } .gt-a4card__button:focus-visible{ outline: 3px solid currentColor; outline-offset: 3px; }
+  </style>
+</p>
