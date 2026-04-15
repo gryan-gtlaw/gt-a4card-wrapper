@@ -7,7 +7,7 @@
     <div class="gt-a4card__content">
       <p class="gt-a4card__meta">
         <span class="gt-a4card__meta-dot" aria-hidden="true"></span>
-        <span>Card catagory</span>
+        <span>Card category</span>
       </p>
 
       <h2 class="gt-a4card__title">Title of the G+T A4 card wrapper goes here</h2>
