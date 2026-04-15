@@ -1,27 +1,199 @@
 <div class="gt-a4card-wrapper">
-  <div class="gt-a4card" aria-label="[[title_text]]">
-    <div class="gt-a4card__media"><img src="https://cdn.bfldr.com/FM3YDCO2/at/bsh6757fvkmrb7rkwxhknrvf/Pro_Bono_Induction_Brochure_July_2025.pdf?format=png&amp;width=900&amp;height=1272" loading="lazy" decoding="async">
+  <div class="gt-a4card" aria-label="Stay Informed and Ahead of the Curve!">
+    <div class="gt-a4card__media">
+      <img src="https://cdn.bfldr.com/FM3YDCO2/at/kkfzt847bmxc2qbzm53mcmb7/Navigating_Australias_foreign_investment_regime_2026_IssueD_100426.png?auto=webp&format=png" alt="Report feature image" loading="lazy" decoding="async">
     </div>
+
     <div class="gt-a4card__content">
       <p class="gt-a4card__meta">
-        [[meta_text]]
+        <span class="gt-a4card__meta-dot" aria-hidden="true"></span>
+        <span>Card catagory</span>
       </p>
-      <h2 class="gt-a4card__title">
-        [[title_text]]
-      </h2>
+
+      <h2 class="gt-a4card__title">Title of the G+T A4 card wrapper goes here</h2>
+
       <div class="gt-a4card__body">
-        [[body_html]]
+        <p>Morbi molestie arcu sit amet libero porttitor, a mollis odio suscipit. Curabitur auctor, tellus in congue vestibulum, lacus lacus convallis justo, at fermentum libero felis nec ligula.</p>
       </div>
-      <div class="gt-a4card__actions"><a href="[[cta_url]]" class="gt-a4card__button">link goes here<span aria-hidden="true">→</span></a>
+
+      <div class="gt-a4card__actions">
+        <div class="action-buttons__container no-wysiwyg" data-funnelback="noindex">
+          <div class="action-buttons__wrapper">
+            <div data-sq-field="ctaConfiguration[0].ctaLink">
+              <a href="https://cdn.bfldr.com/FM3YDCO2/at/n4f5crp35v7t4f7b9b78752s/Navigating_Australias_foreign_investment_regime_2026_IssueD_100426.pdf target="_blank"" class="action-buttons__link button button--primary button--dark-bg gt-a4card__cta" target="_blank">
+                <span class="button__animate-element"></span>
+                <span class="button__label button-default">CTA Instruction here</span>
+                <svg class="button__icon gt-a4card__button-icon" aria-hidden="true" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M20.2539 2.5L35.707 17.9531L20.2539 33.4062L18.1935 31.3458L30.1301 19.4092L0.164062 19.4092L0.164063 16.4953L30.1284 16.4953L18.1935 4.56041L20.2539 2.5Z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<p>
-  <style>
-    /* 30px padding around the card */ .gt-a4card-wrapper{ padding: 30px; } .gt-a4card{ box-sizing: border-box; background: #fff; border: 1px solid #006cf9; /* REQUIRED: 900px max width */ width: 100%; max-width: 900px; margin-inline: auto; display: grid; grid-template-columns: 1fr; } /* Two-column layout
-    once space allows */ @media (min-width: 700px){ .gt-a4card{ grid-template-columns: 1fr 1fr; } } /* A4 portrait ratio locked */ .gt-a4card__media{ width: 100%; aspect-ratio: 1 / 1.414; overflow: hidden; background: #f2f2f2; } .gt-a4card__media img{ width: 100%; height: 100%; object-fit: cover; display:
-    block; } .gt-a4card__content{ padding: 2rem; display: flex; flex-direction: column; gap: 1.5rem; } .gt-a4card__meta{ margin: 0; } .gt-a4card__title{ margin: 0; line-height: 1.15; } .gt-a4card__body &amp;gt; :first-child{ margin-top: 0; } .gt-a4card__body &amp;gt; :last-child{ margin-bottom: 0; } /* CTA
-    always visible */ .gt-a4card__button{ display: inline-flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: #006cf9; color: #fff; text-decoration: none; font-weight: 600; line-height: 1; } .gt-a4card__button:focus-visible{ outline: 3px solid currentColor; outline-offset: 3px; }
-  </style>
-</p>
+
+<style>
+  .gt-a4card-wrapper{
+    padding:30px;
+  }
+
+  .gt-a4card{
+    box-sizing:border-box;
+    width:100%;
+    max-width:900px;
+    margin-inline:auto;
+    display:grid;
+    grid-template-columns:1fr;
+    background:#ffffff;
+    border:1px solid #006cf9;
+    overflow:hidden;
+  }
+
+  @media (min-width:700px){
+    .gt-a4card{
+      grid-template-columns:1fr 1fr;
+    }
+  }
+
+  .gt-a4card__media{
+    width:100%;
+    aspect-ratio:1 / 1.414;
+    overflow:hidden;
+    background:#f2f2f2;
+  }
+
+  .gt-a4card__media img{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+  .gt-a4card__content{
+    box-sizing:border-box;
+    min-width:0;
+    padding:24px 20px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+  }
+
+  @media (min-width:700px){
+    .gt-a4card__content{
+      padding:28px 24px 24px;
+      gap:18px;
+    }
+  }
+
+  .gt-a4card__meta{
+    margin:0;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#060d32;
+    font-family:FoundersGrotesque,"Founders Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:14px;
+    line-height:1.2;
+    font-weight:400;
+  }
+
+  .gt-a4card__meta-dot{
+    width:14px;
+    height:14px;
+    flex:0 0 14px;
+    background:#006cf9;
+    display:inline-block;
+  }
+
+  .gt-a4card__title{
+    margin:0;
+    color:#060d32;
+    font-family:FoundersGrotesque,"Founders Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:clamp(30px,3.3vw,46px);
+    line-height:0.98;
+    letter-spacing:-0.025em;
+    font-weight:400;
+    text-wrap:balance;
+  }
+
+  .gt-a4card__body{
+    min-width:0;
+  }
+
+  .gt-a4card__body > :first-child{
+    margin-top:0;
+  }
+
+  .gt-a4card__body > :last-child{
+    margin-bottom:0;
+  }
+
+  .gt-a4card__body p{
+    margin:0;
+    color:#111111;
+    font-family:FoundersGrotesque,"Founders Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:clamp(16px,1.5vw,20px);
+    line-height:1.4;
+    font-weight:400;
+  }
+
+  .gt-a4card__actions{
+    margin-top:auto;
+    padding-top:6px;
+  }
+
+  .gt-a4card__actions .action-buttons__container,
+  .gt-a4card__actions .action-buttons__wrapper,
+  .gt-a4card__actions [data-sq-field]{
+    display:block;
+  }
+
+  .gt-a4card__cta{
+    display:inline-flex;
+    align-items:center;
+    max-width:100%;
+    text-decoration:none !important;
+  }
+
+  .gt-a4card__cta .button__label{
+    white-space:normal;
+    color:#ffffff !important;
+    transition:color 0.2s ease;
+  }
+
+  .gt-a4card__button-icon{
+    width:20px;
+    height:20px;
+    flex:0 0 20px;
+    display:inline-block;
+    color:#ffffff !important;
+    fill:currentColor !important;
+    transition:color 0.2s ease;
+  }
+
+  .gt-a4card__button-icon path{
+    fill:currentColor !important;
+  }
+
+  .gt-a4card__cta:hover,
+  .gt-a4card__cta:focus,
+  .gt-a4card__cta:active,
+  .gt-a4card__cta:visited{
+    text-decoration:none !important;
+  }
+
+  .gt-a4card__cta:hover .button__label,
+  .gt-a4card__cta:focus .button__label,
+  .gt-a4card__cta:focus-visible .button__label{
+    color:#060d32 !important;
+  }
+
+  .gt-a4card__cta:hover .gt-a4card__button-icon,
+  .gt-a4card__cta:focus .gt-a4card__button-icon,
+  .gt-a4card__cta:focus-visible .gt-a4card__button-icon{
+    color:#ffffff !important;
+  }
+</style>
