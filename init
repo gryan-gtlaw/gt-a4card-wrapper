@@ -20,7 +20,7 @@
         <div class="action-buttons__container no-wysiwyg" data-funnelback="noindex">
           <div class="action-buttons__wrapper">
             <div data-sq-field="ctaConfiguration[0].ctaLink">
-              <a href="https://cdn.bfldr.com/FM3YDCO2/at/n4f5crp35v7t4f7b9b78752s/Navigating_Australias_foreign_investment_regime_2026_IssueD_100426.pdf target="_blank"" class="action-buttons__link button button--primary button--dark-bg gt-a4card__cta" target="_blank">
+              <a href="https://cdn.bfldr.com/FM3YDCO2/at/n4f5crp35v7t4f7b9b78752s/Navigating_Australias_foreign_investment_regime_2026_IssueD_100426.pdf" class="action-buttons__link button button--primary button--dark-bg gt-a4card__cta" target="_blank">
                 <span class="button__animate-element"></span>
                 <span class="button__label button-default">CTA Instruction here</span>
                 <svg class="button__icon gt-a4card__button-icon" aria-hidden="true" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@
     overflow:hidden;
   }
 
-  @media (min-width:700px){
+  @media (min-width:761px){
     .gt-a4card{
       grid-template-columns:1fr 1fr;
     }
@@ -81,7 +81,7 @@
     gap:16px;
   }
 
-  @media (min-width:700px){
+  @media (min-width:761px){
     .gt-a4card__content{
       padding:28px 24px 24px;
       gap:18px;
